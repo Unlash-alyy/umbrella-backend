@@ -1,0 +1,34 @@
+### 测试登录接口
+POST http://localhost:8082/api/user/login
+Content-Type: application/json
+
+{
+  "stuNo": "2023115231",
+  "pwd": "123456"
+}
+### 测试查伞位
+GET http://localhost:8082/api/order/slots
+### 测试借伞
+POST http://localhost:8082/api/order/borrow
+Content-Type: application/json
+
+{
+  "stuNo": "2023115231",
+  "slotNo": 1
+}
+### 测试还伞
+POST http://localhost:8082/api/order/return
+Content-Type: application/json
+
+{
+  "stuNo": "2023115231",
+  "slotNo": 1
+}
+### 测试还伞
+POST http://localhost:8082/api/order/doReturn
+Content-Type: application/json
+
+{
+  "stuNo": "2023115231",
+  "slotNo": 1
+}
