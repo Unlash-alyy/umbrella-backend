@@ -37,11 +37,18 @@
 			<version>3.5.3.1</version>
 		</dependency>
 
-		<!-- MySQL 驱动 -->
+		<!-- MySQL 驱动（本地用） -->
 		<dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>8.0.30</version>
+		</dependency>
+
+		<!-- PostgreSQL 驱动（Render 云端用） -->
+		<dependency>
+			<groupId>org.postgresql</groupId>
+			<artifactId>postgresql</artifactId>
+			<version>42.5.0</version>
 		</dependency>
 
 		<!-- MQTT 客户端 -->
